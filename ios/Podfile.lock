@@ -1,0 +1,35 @@
+PODS:
+  - Bolts/Tasks (1.4.0)
+  - Parse (1.9.1):
+    - Bolts/Tasks (>= 1.4.0)
+  - React/Core (0.13.1)
+  - React/RCTImage (0.13.1):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.13.1):
+    - React/Core
+  - React/RCTPushNotification (0.13.1):
+    - React/Core
+  - React/RCTText (0.13.1):
+    - React/Core
+  - React/RCTWebSocket (0.13.1):
+    - React/Core
+
+DEPENDENCIES:
+  - Parse
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTPushNotification (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+
+SPEC CHECKSUMS:
+  Bolts: 0e9bce58b9b9f5e8a7a4d47b16d2fabec289072b
+  Parse: 54a965c8c19a6dde90284ab654dbcc77ef8c001b
+  React: ae45ad668f6684b569909823d3b77f881d9d472c
+
+COCOAPODS: 0.39.0

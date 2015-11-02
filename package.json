@@ -1,0 +1,15 @@
+{
+  "name": "AwesomeProject2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "parse": "*",
+    "parse-react": "*",
+    "react-native": "^0.13.1",
+    "react-native-checkbox": "^1.0.5",
+    "react-native-device-info": "gpbl/react-native-device-info"
+  }
+}

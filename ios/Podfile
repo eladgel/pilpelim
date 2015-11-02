@@ -1,0 +1,25 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'AwesomeProject2' do
+  pod 'React', :path => '../node_modules/react-native',
+    :subspecs => [
+      'RCTActionSheet',
+      'RCTGeolocation',
+      'RCTImage',
+      'RCTLinkingIOS',
+      'RCTNetwork',
+      'RCTPushNotification',
+      'RCTSettings',
+      'RCTText',
+      'RCTVibration',
+      'RCTWebSocket',
+    ]
+  pod 'Parse'
+end
+
+target 'AwesomeProject2Tests' do
+
+end
