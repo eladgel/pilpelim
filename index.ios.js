@@ -19,9 +19,9 @@ var ParseReact = require('parse-react/react-native');
 var CheckBox = require('react-native-checkbox');
 var localConfig = require('./local-config.json');
 
-const PARSE_APP_ID = localConfig.PARSE_APP_ID;//"JpbyZnZrf0nrlL0093X6bk5HUBzIGRdQ6By7OrsR";
-const PARSE_JS_KEY = localConfig.PARSE_JS_KEY;//"leXA88bUoh9GhvNMHFyY6MNUi2sOXsVDGjLuUA7a";
-const PARSE_REST_KEY = localConfig.PARSE_REST_KEY;//"y8rkVSTxfL3RyE8dhWc97QlhYsstrTKMcMwLPS6h";
+const PARSE_APP_ID = localConfig.PARSE_APP_ID;
+const PARSE_JS_KEY = localConfig.PARSE_JS_KEY;
+const PARSE_REST_KEY = localConfig.PARSE_REST_KEY;
 
 Parse.initialize(
   PARSE_APP_ID,
